@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+    color: #062f40;
+    
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    text-align: center; 
+    color: #062f40;
+}
+.h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #062f40;
+}
+
+.logo{
+     margin-top: 50px;
+       height: auto;
+       width: 400px;
+
+}
+.navbar {
+    background-color: #ffffff;
+    text-align: center;
+    display: block!important;
+}
+
+.navbar a {
+    padding: 5px 40px; /* Ajuste o padding conforme necessário */
+    margin: 0 20px; /* Remova qualquer margem extra */
+    display: inline-block; /* Garante que os itens fiquem em linha */
+    text-decoration: none;
+    color: black;
+}
+
+
+.section {
+    padding: 20px;
+}
+
+.about {
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#portfolio {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+margin:0 auto;
+width: 1020px;
+}
+
+.media {
+    
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #e7257f;
+    color: #062f40;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .portfolio-item {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+}
+
+.spaco {
+    margin-top: 100px;
+}
+
+.mico{
+    margin-bottom: 50px;
+}
+.bgsection{
+    width: 100%;
+    height: auto;
+    background-color: #f9cfe4;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar Hover Effects */
+.navbar a:hover {
+    color: #f39c12;
+}
+
+/* Form Validation */
+.is-invalid {
+    border-color: #e74c3c;
+}
